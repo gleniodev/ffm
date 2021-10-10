@@ -115,8 +115,6 @@ main{
   font-size: 40px;
 }
 
-
-
 .content-misterios{
   display: flex;
   flex-flow: column wrap;  
@@ -132,6 +130,7 @@ main{
 .content-misterios p{
   position: absolute;
   width: 300px;
+  height: 332px;
   padding: 20px;
   text-align: center;
 }
