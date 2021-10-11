@@ -27,7 +27,7 @@ let cont = 0;
 let next = document.querySelector('#next');
 let prev = document.querySelector('#prev');
 let slideAtual = document.querySelector('#slide-' + cont);
-let textoSlideAtual= "Gloriosos";
+let textoSlideAtual= "gloriosos";
 
 next.addEventListener('click', () =>{
     cont ++

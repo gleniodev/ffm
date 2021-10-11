@@ -13,9 +13,11 @@
 </head>
 
 <body>
-    <img class="star" src="/img/star vert.png" alt=""> 
+    <img class="star" src="/img/star vert.png" alt="">
     <header>
-        <h1><%= tituloPage %></h1>
+        <h1>
+            <%= tituloPage %>
+        </h1>
     </header>
 
     <main>
@@ -34,28 +36,36 @@
 
         <!-- Swiper conteúdo dos mistérios-->
 
-        
+
         <section class="swiper-2">
             <div class="swiper-wrapper">
 
-                <% for(let misterio of misterios) {%>
+                    
+                <% for(let misterio of misterios) { %>   
 
-                <div class="swiper-slide swiper-slide--column">
-                    <article class="card">
-                        <img src="<%= misterio.thumb %> " alt="" width="55px" height="55px">
-                        <div class="card__items">
-                            <h3><%= misterio.id %> mistério</h3>
-                            <p><%= misterio.titulo %> </p>
-                        </div>
-                    </article>
+                    <div class="swiper-slide swiper-slide--column">
+                        <article class="card">
+                            <img src="<%= misterio.thumb %> " alt="" width="55px" height="55px">
+                            <div class="card__items">
+                                <h3>
+                                    <%= misterio.id %> mistério 
+                                </h3>
+                                <p>
+                                    <%= misterio.titulo %>
+                                </p>
+                            </div>
+                        </article>
 
-                    <article class="content-misterios">
-                        <img src="<%= misterio.imagem %>" alt=""  width="300px" height="332px">
-                        <p class="content-misterios--texto"><%= misterio.texto %></p>
-                    </article>
-                </div>
-                <% }; %> 
-                <!-- <div class="swiper-slide swiper-slide--column">
+                        <article class="content-misterios">
+                            <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px">
+                            <spam class="bg-texto"></spam>
+                            <p class="content-misterios--texto">
+                                <%= misterio.texto %>
+                            </p>
+                        </article>
+                    </div>
+                    <% }; %>
+                        <!-- <div class="swiper-slide swiper-slide--column">
                     <article class="card">
                         <img src="/img/thumb-glo-1mt-ressurreicao.png" alt="" width="55px" height="55px">
                         <div class="card__items">
@@ -78,7 +88,7 @@
 
             <!-- Swiper paginação-->
             <div class="swiper-pagination"></div>
-        </section>        
+        </section>
     </main>
 
     <footer></footer>
@@ -89,7 +99,7 @@
     <script src="/js/swiper.js"></script>
 
 
-    
+
 </body>
 
 </html>

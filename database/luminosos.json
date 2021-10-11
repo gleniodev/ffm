@@ -1,0 +1,78 @@
+[
+    {
+        "id": "1º",
+        "titulo": " Batismo de Jesus",
+        "texto": "Meditemos sobre o batismo de Jesus no rio Jordão.",
+        "subtitulo": "Cristo ressuscitou com seu próprio corpo, um corpo transfigurado e glorificado. Jesus nos inspirou confiança e esperança ao nos disser: Eu sou a ressurreição e a vida. Aquele que crê em mim, ainda que venha a morrer, viverá (Jó 11,25; 6,35-40; 47-54). Esta verdade é a fonte de nossa esperança e de nossa alegria.",
+        "imagem": " ",
+        "thumb": " ",
+        "musicas": {
+            "titulo": "Brisa leve",
+            "link": ""
+        }
+    },
+    {
+        "id": "2º",
+        "titulo": "Bodas de Caná",
+        "subtitulo": "A auto-revelação de Jesus nas bodas de Caná.",
+        "texto": "Meditemos na poderosa e valiosa intercessão de Maria junto a Jesus Cristo e no ouvido atento de Jesus aos anseios de Maria. Maria intercede e Jesus realiza a graça. Que possamos pedir a graça de sermos verdadeiros discípulos do reino dos céus.",
+        "imagem": " ",
+        "thumb": " ",
+        "musicas": {
+            "titulo": "Fazei tudo que ele vos disser",
+            "link": ""
+        }
+    },
+    {
+        "id": "3º",
+        "titulo": "O anúncio do Reino",
+        "subtitulo": ": O anúncio do reino de Deus.",
+        "texto": "Jesus nos convida a nos convertermos plenamente às leis de Deus em busca da felicidade eterna. O anúncio da Boa-Nova traz a esperança de um mundo melhor para todos os homens. Jesus perdoa os pecados de quem a ele se dirige com humilde confiança (cf Mc 2,3-1; Lc 7,47s). Que peçamos a Deus a coragem e humildade para que todos procurarem constantemente o sacramento da confissão, que nos liberta dos laços do maligno.",
+        "imagem": " ",
+        "thumb": " ",
+        "musicas": {
+            "titulo": "Minha essência",
+            "link": ""
+        }
+    },
+    {
+        "id": "4º",
+        "titulo": "Transfiguração",
+        "subtitulo": "A transfiguração de Jesus.",
+        "texto": "Jesus mostra aos Apóstolos e a todos os seres humanos a sua verdadeira essência divina. Sua Luz nos orienta a seguir os caminhos do bem. Transfiguração de Jesus é o Mistério da luz.",
+        "imagem": " ",
+        "thumb": " ",
+        "musicas": [
+            {
+                "titulo": "Podes reinar",
+                "link": ""
+            },
+            {
+                "titulo": "Diante do Rei",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "id": "5º",
+        "titulo": "Instituição da Eucaristia ",
+        "subtitulo": "A instituição da Eucaristia.",
+        "texto": "Jesus nos dá seu próprio corpo e sangue como alimento espiritual para nossas almas, é a maior prova de Seu Amor por toda a humanidade. Um cristão que não se alimenta de Cristo na Eucaristia, vive em uma fome espiritual de Deus, que possamos ser anunciadores do Santíssimo Sacramento que alimenta a cada alma que por Deus e para Deus foi criada.",
+        "imagem": " ",
+        "thumb": " ",
+        "musicas": [
+            {
+                "titulo": "Sacramento da comunhão",
+                "link": ""
+            },
+            {
+                "titulo": "Deus presente",
+                "link": ""
+            },
+            {
+                "titulo": "Milagre de amor",
+                "link": ""
+            }
+        ]
+    }
+]
