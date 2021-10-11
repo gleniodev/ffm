@@ -1,6 +1,8 @@
+const gloriosos = require('../database/gloriosos');
+
 const tercosController ={
     tercoMariano: (req, res, next) =>{
-        res.render('tercoMariano')
+        return res.render('tercoMariano', {tituloPage: "terço mariano", misterios: gloriosos});
     }
 }
 

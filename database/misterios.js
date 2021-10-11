@@ -1,6 +1,6 @@
-const misterios = [
+const misterios = 
     {
-        Gozosos: [
+        gozosos: [
                     {
                         id: "1º",
                         titulo: "Anunciação do anjo",
@@ -73,7 +73,7 @@ const misterios = [
                     }
         
         ],
-        Dolorosos: [
+        dolorosos: [
             {
                 id: "1º",
                 titulo: " Agonia de Jesus",
@@ -150,7 +150,7 @@ const misterios = [
             }
 
         ],
-        Gloriosos: [
+        gloriosos: [
             {
                 id: "1º",
                 titulo: " A Ressurreição",
@@ -226,7 +226,7 @@ const misterios = [
             }
 
         ],
-        Luminosos: [
+        luminosos: [
             {
                 id: "1º",
                 titulo: " Batismo de Jesus",
@@ -312,4 +312,6 @@ const misterios = [
 
         ]
     }
-]
+
+
+module.exports = misterios;
