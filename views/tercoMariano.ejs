@@ -41,26 +41,26 @@
             <div class="swiper-wrapper">
 
                     
-                <% for(let misterio of misterios) { %>   
+                 <% for(let textoSlideAtualSingular of textoSlideAtual) { %>   
 
                     <div class="swiper-slide swiper-slide--column">
                         <article class="card">
-                            <img src="<%= misterio.thumb %> " alt="" width="55px" height="55px">
+                            <img src="<%= textoSlideAtualSingular.thumb %> " alt="" width="55px" height="55px" id="thumb">
                             <div class="card__items">
-                                <h3>
-                                    <%= misterio.id %> mistério 
+                                <h3 id="id-misterio">
+                                    <%= textoSlideAtualSingular.id %> mistério 
                                 </h3>
-                                <p>
-                                    <%= misterio.titulo %>
+                                <p id="titulo-misterio">
+                                    <%= textoSlideAtualSingular.titulo %>
                                 </p>
                             </div>
                         </article>
 
                         <article class="content-misterios">
-                            <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px">
+                            <img src="<%= textoSlideAtualSingular.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
                             <spam class="bg-texto"></spam>
-                            <p class="content-misterios--texto">
-                                <%= misterio.texto %>
+                            <p class="content-misterios--texto" id="texto-misterio">
+                                <%= textoSlideAtualSingular.texto %>
                             </p>
                         </article>
                     </div>
