@@ -1,0 +1,35 @@
+[33mcommit d32f9c78fd92133ceeed9ff275d70ffb248d15e7[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/terco-mariano[m[33m, [m[1;31morigin/feature/terco-mariano[m[33m)[m
+Author: gleniodev <gleniodev@gmail.com>
+Date:   Mon Oct 11 20:47:26 2021 -0300
+
+    separando base de dados
+
+[33mcommit 4cdff793a19a61bdd77124373f99c8075be2a2c6[m
+Author: gleniodev <gleniodev@gmail.com>
+Date:   Mon Oct 11 14:40:36 2021 -0300
+
+    testes de ejs finalizado
+
+[33mcommit d64cbe0a8adebe75953fe7a8a57331be39650068[m
+Author: gleniodev <gleniodev@gmail.com>
+Date:   Sat Oct 9 21:33:25 2021 -0300
+
+    ajustes de css
+
+[33mcommit 2f752c95e4ae47e64ff65b983cd455d18ceaa615[m
+Author: gleniodev <gleniodev@gmail.com>
+Date:   Sat Oct 9 17:43:57 2021 -0300
+
+    renomeando branch
+
+[33mcommit 2647316d58730dece9a9246025b94406380277e4[m[33m ([m[1;31morigin/feature/tercoMariano[m[33m)[m
+Author: gleniodev <gleniodev@gmail.com>
+Date:   Sat Oct 9 17:37:20 2021 -0300
+
+    subindo nova branch
+
+[33mcommit 8d9e9ab9d5b9ae0753f97e20d92db4ac102240b0[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: gleniodev <gleniodev@gmail.com>
+Date:   Sat Oct 9 17:34:31 2021 -0300
+
+    first commit
