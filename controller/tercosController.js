@@ -11,7 +11,7 @@ const tercosController ={
             dolorosos: dolorosos,
             luminosos: luminosos,
             gozosos: gozosos
-        });        
+        });               
     }
 }
 
