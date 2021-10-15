@@ -21,6 +21,13 @@
     </header>
 
     <main>
+        <!-- <section class="group-button">
+            <button class="button">Gloriosos</button>
+            <button class="button">Dolorosos</button>
+            <button class="button">Gozosos</button>
+            <button class="button">Luminosos</button>
+        </section> -->
+
         <!-- Swiper títulos dos mistérios -->
         <section class="swiper">
             <div class="swiper-wrapper">
@@ -40,15 +47,15 @@
         <section class="swiper-2">
             <div class="swiper-wrapper">
 
-                    
-                 <% for(let misterio of dolorosos) { %>   
 
-                    <div class="swiper-slide swiper-slide--column">
+                <% for(let misterio of misterios) { %>
+
+                    <div class="swiper-slide swiper-slide--column  <%= misterio.nome %>" id="misterio-container" >
                         <article class="card">
-                            <img src="<%= misterio.thumb %> " alt="" width="55px" height="55px" id="thumb">
+                            <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
                             <div class="card__items">
                                 <h3 id="id-misterio">
-                                    <%= misterio.id %> mistério 
+                                    <%= misterio.id %> mistério
                                 </h3>
                                 <p id="titulo-misterio">
                                     <%= misterio.titulo %>
@@ -97,6 +104,7 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="/js/swiper.js"></script>
+    <script src="/js/script.js"></script>
 
 
 

@@ -1,0 +1,144 @@
+[
+    {
+        "id": "1º",
+        "nome": "gloriosos",
+        "titulo": " A Ressurreição de Jesus",
+        "subtitulo": "Meditemos sobre a ressurreição de Jesus e sua aparição aos discípulos.",
+        "texto": "Cristo ressuscitou com seu próprio corpo, um corpo transfigurado e glorificado. Jesus nos inspirou confiança e esperança ao nos disser: Eu sou a ressurreição e a vida. Aquele que crê em mim, ainda que venha a morrer, viverá (Jó 11,25; 6,35-40; 47-54). Esta verdade é a fonte de nossa esperança e de nossa alegria.",
+        "imagem": "/img/glo-1mt-ressurreicao.png",
+        "thumb": "/img/thumb-glo-1mt-ressurreicao.png ",
+        "musicas": {
+            "titulo": "Só por ti Jesus",
+            "link": ""
+        }
+    },
+    {
+        "id": "2º",
+        "nome": "gloriosos",
+        "titulo": "A ascensão ao céu",
+        "subtitulo": "Meditemos sobre a Ascensão de Jesus ao céu.",
+        "texto": "Mesmo desaparecendo aos olhos dos Apóstolos, Jesus continua presente na sua Igreja, pelo dom do Espírito Santo e no sacramento da Eucaristia. O Senhor Jesus subiu aos céus, para estar sentado à direita do Pai, (cf. Rm 8,34; Hb 10,12; Sl 110 (109),1) A Ascensão representa o triunfo e exaltação de Jesus.",
+        "imagem": "/img/glo-2mt-ascensao.png",
+        "thumb": "/img/thumb-glo-2mt-ascensao.png ",
+        "musicas": [
+            {
+                "titulo": "Viver pra mim é Cristo",
+                "link": ""
+            },
+            {
+                "titulo": "Nas asas do Senhor",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "id": "3º",
+        "nome": "gloriosos",
+        "titulo": "Vinda do Espírito Santo",
+        "subtitulo": "A descida do Espírito Santo sobre os apóstolos e Nossa Senhora.",
+        "texto": "Deus envia o Prometido, o Espírito Santo Paráclito: para ensinar aos discípulos tudo que Jesus havia os dito. Este acontecimento inunda a vida dos discípulos com uma luz jamais experimentada, provocando uma compreensão mais profunda das maravilhas de Deus. O Espírito Santo é a alma da Igreja. A ela, Ele foi dado como garantia de seu caminho, de modo que o mal nunca prevaleça.",
+        "imagem": "/img/glo-3mt-espitiro.png ",
+        "thumb": "/img/thumb-glo-3mt-espitiro.png ",
+        "musicas": {
+            "titulo": "Cenáculo de amor",
+            "link": ""
+        }
+    },
+    {
+        "id": "4º",
+        "nome": "gloriosos",
+        "titulo": "Assunção de Maria",
+        "subtitulo": "Meditemos sobre a triunfante Assunção de Nossa Senhora ao céu.",
+        "texto": "Cristo ressuscitou, e isso é a garantia de que os que são de Cristo e estão mortos também serão ressuscitados. Maria é a primeira dentre ‘os que são de Cristo e a primeira a receber a glória através da Assunção. Hoje, Cristo abraça Maria, Imaculada, acolhendo-a, no céu, com o seu corpo glorificado, enquanto se espera a ressurreição universal.",
+        "imagem": "/img/glo-4mt-assuncao.png ",
+        "thumb": "/img/thumb-glo-4mt-assuncao.png ",
+        "musicas": {
+            "titulo": "Regaço acolhedor",
+            "link": ""
+        }
+    },
+    {
+        "id": "5º",
+        "nome": "gloriosos",
+        "titulo": "Coroação de Maria ",
+        "subtitulo": "A coroação de Maria por Jesus e os anjos .",
+        "texto": "Então abriu-se o Templo de Deus no céu, a Arca da Aliança apareceu no Seu Templo... Depois, apareceu um grande sinal no céu: uma mulher vestida de sol, tendo a lua debaixo dos seus pés e uma coroa de doze estrelas sobre a cabeça (Ap 11,19 e 12,1).Rainha da Igreja intercessora poderosa junto a Jesus, tem poder de esmagar a cabeça do dragão infernal, na hora de nossa morte nos defenderá e a todos aqueles que por amor a ela e a seu filho forem fiéis na oração do Santo Rosário... a cada Ave-Maria depositamos uma rosa a seus pés.",
+        "imagem": "/img/glo-5mt-coroacao.png ",
+        "thumb": "/img/thumb-glo-5mt-coroacao.png ",
+        "musicas": {
+            "titulo": "Perfeito é quem te criou",
+            "link": ""
+        }
+    },
+    {
+        "id": "1º",
+        "nome": "dolorosos",
+        "titulo": " Agonia de Jesus",
+        "subtitulo": "A agonia de Jesus no horto das oliveiras.",
+        "texto": "Cristo sofreu e até suou sangue, se sentiu abandonado, teve de sofrer por nós, do contrário, não poderíamos ser salvos. Devemos imitá-lo sofrendo uns pelos outros e oferecer os sofrimentos em união com a Cruz de Cristo e com as renúncias da Santíssima Virgem.",
+        "imagem": "/img/dol-1mt-agonia.png",
+        "thumb": "/img/thumb-dol-1mt-agonia.png",
+        "musicas": {
+            "titulo": "Via Sacra",
+            "link": ""
+        }
+    },
+    {
+        "id": "2º",
+        "nome": "dolorosos",
+        "titulo": "Flagelação de Cristo",
+        "subtitulo": "A flagelação de Jesus atado a uma coluna.",
+        "texto": "Os açoites eram aplicáveis apenas aos escravos e rebeldes a Roma. O flagelo usado era feito de tiras de couro, com pedaços de ferro e de osso fixados nas pontas e como um cordeiro inocente, carregado dos delitos do seu povo, em silêncio, Jesus se deixa conduzir ao matadouro. E é de sua morte, aceita livremente, que provém à justificação para todas as pessoas.",
+        "imagem": "/img/dol-2mt-flagelacao.png",
+        "thumb": "/img/thumb-dol-2mt-flagelacao.png",
+        "musicas": {
+            "titulo": "Foi por você",
+            "link": ""
+        }
+    },
+    {
+        "id": "3º",
+        "nome": "dolorosos",
+        "titulo": "Coroação de espinhos",
+        "subtitulo": ": A coroação de espinhos.",
+        "texto": "Em cada ponta de espinho! Um pecado. Em cada gota de sangue derramado! O perdão. Cristo lavou os nossos pecados e resgatou-nos da morte, através do poderoso sangue redentor, que nos cura, liberta e que hoje se derrama em cada Santa Missa celebrada.",
+        "imagem": "/img/dol-3mt-coroa.png",
+        "thumb": "/img/thumb-dol-3mt-coroa.png",
+        "musicas": [
+            {
+                "titulo": "Deus é amor",
+                "link": ""
+            },
+            {
+                "titulo": "É certo tua presença",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "id": "4º",
+        "nome": "dolorosos",
+        "titulo": "O transporte da cruz",
+        "subtitulo": "Jesus carrega a cruz até o calvário.",
+        "texto": "O peso da cruz era o peso dos pecados do mundo, e em seus ombros abriram chagas que chegavam até os ossos. Todo aquele que quiser vir após mim, renegue a si mesmo tome a sua cruz e siga-me. As cruzes diárias são caminho de redenção e salvação. Aceitar as cruzes é amar a Jesus e imitá-lo. O servo fiel que segue seu mestre e também dá a vida por outro irmão.",
+        "imagem": "/img/dol-4mt-cruz.png ",
+        "thumb": "/img/thumb-dol-4mt-cruz.png ",
+        "musicas": {
+            "titulo": "Não desista do amor",
+            "link": ""
+        }
+    },
+    {
+        "id": "5º",
+        "nome": "dolorosos",
+        "titulo": "Crucificação",
+        "subtitulo": "Jesus morre na cruz.",
+        "texto": "A cruz Sagrada seja a nossa luz… todo sofrimento na terra não tem comparação ao da cruz do Senhor. Por amor ao ser humano suportou dores incalculáveis, humilhou-se e foi desprezado, tratado como o pior dos criminosos. O maior dos tesouros de um cristão é honrar a Santa Cruz!",
+        "imagem": "/img/dol-5mt-crucificacao.png",
+        "thumb": "/img/thumb-dol-5mt-crucificacao.png",
+        "musicas": {
+            "titulo": "Mistério da Cruz",
+            "link": ""
+        }
+    }
+]
