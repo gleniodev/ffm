@@ -1,0 +1,116 @@
+<!-- Swiper conteúdo dos mistérios-->
+<section class="swiper-2">
+    <div class="swiper-wrapper" id="wrapper-0">
+
+        <div id="content-0">
+            <% for(let misterio of gloriosos) { %>
+
+                <div class="swiper-slide swiper-slide--column" data-title="<%= misterio.nome%>">
+                    <article class="card">
+                        <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
+                        <div class="card__items">
+                            <h3 id="id-misterio">
+                                <%= misterio.id %> mistério
+                            </h3>
+                            <p id="titulo-misterio">
+                                <%= misterio.titulo %>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="content-misterios">
+                        <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
+                        <spam class="bg-texto"></spam>
+                        <p class="content-misterios--texto" id="texto-misterio">
+                            <%= misterio.texto %>
+                        </p>
+                    </article>
+                </div>
+                <% }; %>
+        </div>
+
+        <div id="content-1">
+            <% for(let misterio of dolorosos) { %>
+
+                <div class="swiper-slide swiper-slide--column" data-title="<%= misterio.nome%>" id="content-1">
+                    <article class="card">
+                        <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
+                        <div class="card__items">
+                            <h3 id="id-misterio">
+                                <%= misterio.id %> mistério
+                            </h3>
+                            <p id="titulo-misterio">
+                                <%= misterio.titulo %>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="content-misterios">
+                        <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
+                        <spam class="bg-texto"></spam>
+                        <p class="content-misterios--texto" id="texto-misterio">
+                            <%= misterio.texto %>
+                        </p>
+                    </article>
+                </div>
+                <% }; %>
+        </div>
+
+        <div id="content-2">
+            <% for(let misterio of gozosos) { %>
+
+                <div class="swiper-slide swiper-slide--column" data-title="<%= misterio.nome%>">
+                    <article class="card">
+                        <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
+                        <div class="card__items">
+                            <h3 id="id-misterio">
+                                <%= misterio.id %> mistério
+                            </h3>
+                            <p id="titulo-misterio">
+                                <%= misterio.titulo %>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="content-misterios">
+                        <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
+                        <spam class="bg-texto"></spam>
+                        <p class="content-misterios--texto" id="texto-misterio">
+                            <%= misterio.texto %>
+                        </p>
+                    </article>
+                </div>
+                <% }; %>
+        </div>
+
+        <div id="content-3">
+            <% for(let misterio of luminosos) { %>
+
+                <div class="swiper-slide swiper-slide--column" data-title="<%= misterio.nome%>">
+                    <article class="card">
+                        <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
+                        <div class="card__items">
+                            <h3 id="id-misterio">
+                                <%= misterio.id %> mistério
+                            </h3>
+                            <p id="titulo-misterio">
+                                <%= misterio.titulo %>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="content-misterios">
+                        <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
+                        <spam class="bg-texto"></spam>
+                        <p class="content-misterios--texto" id="texto-misterio">
+                            <%= misterio.texto %>
+                        </p>
+                    </article>
+                </div>
+                <% }; %>
+        </div>
+
+    </div>
+    <!-- Swiper paginação-->
+    <div class="swiper-pagination"></div>
+</section>

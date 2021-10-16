@@ -222,6 +222,14 @@ main{
   background: var(--secondary);
 }
 
+.content-wrapper{
+  position: relative;
+  background:#05C7F2;
+  overflow: hidden;
+  width: 300px;
+  max-width: 300px;
+}
+
 
 
 

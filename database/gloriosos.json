@@ -1,20 +1,20 @@
 [
     {
         "id": "1º",
+        "nome": "gloriosos",
         "titulo": " A Ressurreição de Jesus",
         "subtitulo": "Meditemos sobre a ressurreição de Jesus e sua aparição aos discípulos.",
         "texto": "Cristo ressuscitou com seu próprio corpo, um corpo transfigurado e glorificado. Jesus nos inspirou confiança e esperança ao nos disser: Eu sou a ressurreição e a vida. Aquele que crê em mim, ainda que venha a morrer, viverá (Jó 11,25; 6,35-40; 47-54). Esta verdade é a fonte de nossa esperança e de nossa alegria.",
         "imagem": "/img/glo-1mt-ressurreicao.png",
         "thumb": "/img/thumb-glo-1mt-ressurreicao.png ",
-        "musicas": 
-            {
-                "titulo": "Só por ti Jesus",
-                "link": ""
-            }
-        
+        "musicas": {
+            "titulo": "Só por ti Jesus",
+            "link": ""
+        }
     },
     {
         "id": "2º",
+        "nome": "gloriosos",
         "titulo": "A ascensão ao céu",
         "subtitulo": "Meditemos sobre a Ascensão de Jesus ao céu.",
         "texto": "Mesmo desaparecendo aos olhos dos Apóstolos, Jesus continua presente na sua Igreja, pelo dom do Espírito Santo e no sacramento da Eucaristia. O Senhor Jesus subiu aos céus, para estar sentado à direita do Pai, (cf. Rm 8,34; Hb 10,12; Sl 110 (109),1) A Ascensão representa o triunfo e exaltação de Jesus.",
@@ -28,49 +28,46 @@
             {
                 "titulo": "Nas asas do Senhor",
                 "link": ""
-            }]
-        
+            }
+        ]
     },
     {
         "id": "3º",
+        "nome": "gloriosos",
         "titulo": "Vinda do Espírito Santo",
         "subtitulo": "A descida do Espírito Santo sobre os apóstolos e Nossa Senhora.",
         "texto": "Deus envia o Prometido, o Espírito Santo Paráclito: para ensinar aos discípulos tudo que Jesus havia os dito. Este acontecimento inunda a vida dos discípulos com uma luz jamais experimentada, provocando uma compreensão mais profunda das maravilhas de Deus. O Espírito Santo é a alma da Igreja. A ela, Ele foi dado como garantia de seu caminho, de modo que o mal nunca prevaleça.",
         "imagem": "/img/glo-3mt-espitiro.png ",
         "thumb": "/img/thumb-glo-3mt-espitiro.png ",
-        "musicas": 
-            {
-                "titulo": "Cenáculo de amor",
-                "link": ""
-            }
-        
+        "musicas": {
+            "titulo": "Cenáculo de amor",
+            "link": ""
+        }
     },
     {
         "id": "4º",
+        "nome": "gloriosos",
         "titulo": "Assunção de Maria",
         "subtitulo": "Meditemos sobre a triunfante Assunção de Nossa Senhora ao céu.",
         "texto": "Cristo ressuscitou, e isso é a garantia de que os que são de Cristo e estão mortos também serão ressuscitados. Maria é a primeira dentre ‘os que são de Cristo e a primeira a receber a glória através da Assunção. Hoje, Cristo abraça Maria, Imaculada, acolhendo-a, no céu, com o seu corpo glorificado, enquanto se espera a ressurreição universal.",
         "imagem": "/img/glo-4mt-assuncao.png ",
         "thumb": "/img/thumb-glo-4mt-assuncao.png ",
-        "musicas": 
-            {
-                "titulo": "Regaço acolhedor",
-                "link": ""
-            }
-        
+        "musicas": {
+            "titulo": "Regaço acolhedor",
+            "link": ""
+        }
     },
     {
         "id": "5º",
+        "nome": "gloriosos",
         "titulo": "Coroação de Maria ",
         "subtitulo": "A coroação de Maria por Jesus e os anjos .",
         "texto": "Então abriu-se o Templo de Deus no céu, a Arca da Aliança apareceu no Seu Templo... Depois, apareceu um grande sinal no céu: uma mulher vestida de sol, tendo a lua debaixo dos seus pés e uma coroa de doze estrelas sobre a cabeça (Ap 11,19 e 12,1).Rainha da Igreja intercessora poderosa junto a Jesus, tem poder de esmagar a cabeça do dragão infernal, na hora de nossa morte nos defenderá e a todos aqueles que por amor a ela e a seu filho forem fiéis na oração do Santo Rosário... a cada Ave-Maria depositamos uma rosa a seus pés.",
         "imagem": "/img/glo-5mt-coroacao.png ",
         "thumb": "/img/thumb-glo-5mt-coroacao.png ",
-        "musicas": 
-            {
-                "titulo": "Perfeito é quem te criou",
-                "link": ""
-            }
-        
+        "musicas": {
+            "titulo": "Perfeito é quem te criou",
+            "link": ""
+        }
     }
 ]

@@ -1,113 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<%- include('./partials/head') %> 
+<%- include('./partials/swiperTitles') %> 
+<%- include('./partials/swiperContent') %> 
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <!-- CSS local -->
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Terço Mariano</title>
-</head>
+</main>
+<footer></footer>
 
-<body>
-    <img class="star" src="/img/star vert.png" alt="">
-    <header>
-        <h1>
-            <%= tituloPage %>
-        </h1>
-    </header>
-
-    <main>
-        <!-- <section class="group-button">
-            <button class="button">Gloriosos</button>
-            <button class="button">Dolorosos</button>
-            <button class="button">Gozosos</button>
-            <button class="button">Luminosos</button>
-        </section> -->
-
-        <!-- Swiper títulos dos mistérios -->
-        <section class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" id="slide-0">Gloriosos</div>
-                <div class="swiper-slide" id="slide-1">Dolorosos</div>
-                <div class="swiper-slide" id="slide-2">Gozosos</div>
-                <div class="swiper-slide" id="slide-3">Luminosos</div>
-            </div>
-            <div class="swiper-button-next" id="next"></div>
-            <div class="swiper-button-prev" id="prev"></div>
-        </section>
-        <!-- Swiper títulos dos mistérios-->
-
-        <!-- Swiper conteúdo dos mistérios-->
-
-
-        <section class="swiper-2">
-            <div class="swiper-wrapper">
-
-
-                <% for(let misterio of misterios) { %>
-
-                    <div class="swiper-slide swiper-slide--column  <%= misterio.nome %>" id="misterio-container" >
-                        <article class="card">
-                            <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
-                            <div class="card__items">
-                                <h3 id="id-misterio">
-                                    <%= misterio.id %> mistério
-                                </h3>
-                                <p id="titulo-misterio">
-                                    <%= misterio.titulo %>
-                                </p>
-                            </div>
-                        </article>
-
-                        <article class="content-misterios">
-                            <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
-                            <spam class="bg-texto"></spam>
-                            <p class="content-misterios--texto" id="texto-misterio">
-                                <%= misterio.texto %>
-                            </p>
-                        </article>
-                    </div>
-                    <% }; %>
-                        <!-- <div class="swiper-slide swiper-slide--column">
-                    <article class="card">
-                        <img src="/img/thumb-glo-1mt-ressurreicao.png" alt="" width="55px" height="55px">
-                        <div class="card__items">
-                            <h3>2º Mistério</h3>
-                            <p>ascenção de jesus</p>
-                        </div>
-                    </article>
-
-                    <article class="content-misterios">
-                        <img src="/img/glo-2mt-ascensao.png" alt="" width="300px">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi omnis accusantium distinctio
-                            natus
-                            consequuntur, fuga illum laboriosam. Itaque molestiae quod porro eveniet rem dolorem dicta
-                            illum
-                            non?
-                            Laudantium, velit dolor?</p>
-                    </article>
-                </div> -->
-            </div>
-
-            <!-- Swiper paginação-->
-            <div class="swiper-pagination"></div>
-        </section>
-    </main>
-
-    <footer></footer>
-
-
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="/js/swiper.js"></script>
-    <script src="/js/script.js"></script>
-
-
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="/js/swiperScript.js"></script>
+<script src="/js/script.js"></script>
 
 </body>
-
 </html>
