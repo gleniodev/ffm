@@ -6,7 +6,7 @@ const luminosos = require('../database/luminosos.json')
 const tercosController ={
     tercoMariano: (req, res, next) =>{  
         
-        return res.render('tercoMariano', {
+        return res.render('index', {
             tituloPage: "terço mariano",
             gloriosos,
             luminosos,
