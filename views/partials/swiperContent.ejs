@@ -1,11 +1,10 @@
 <!-- Swiper conteúdo dos mistérios-->
 <section class="snap">
-    <div class="swiper-wrapper" id="wrapper-0">
 
-        <div id="content-0">
+        <div class="snap-wrapper" id="wrapper-0">
             <% for(let misterio of gloriosos) { %>
 
-                <div class="swiper-slide swiper-slide--column" data-title="<%= misterio.nome%>">
+                <div class="snap-slide">
                     <article class="card">
                         <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
                         <div class="card__items">
@@ -29,10 +28,10 @@
                 <% }; %>
         </div>
 
-        <div id="content-1">
+        <div class="snap-wrapper" id="wrapper-1">
             <% for(let misterio of dolorosos) { %>
 
-                <div class="swiper-slide swiper-slide--column" data-title="<%= misterio.nome%>" id="content-1">
+                <div class="snap-slide">
                     <article class="card">
                         <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
                         <div class="card__items">
@@ -56,10 +55,10 @@
                 <% }; %>
         </div>
 
-        <div id="content-2">
+        <div class="snap-wrapper" id="wrapper-2">
             <% for(let misterio of gozosos) { %>
 
-                <div class="swiper-slide swiper-slide--column" data-title="<%= misterio.nome%>">
+                <div class="snap-slide">
                     <article class="card">
                         <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
                         <div class="card__items">
@@ -83,10 +82,10 @@
                 <% }; %>
         </div>
 
-        <div id="content-3">
+        <div class="snap-wrapper" id="wrapper-3">
             <% for(let misterio of luminosos) { %>
 
-                <div class="swiper-slide swiper-slide--column" data-title="<%= misterio.nome%>">
+                <div class="snap-slide">
                     <article class="card">
                         <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
                         <div class="card__items">
@@ -109,8 +108,6 @@
                 </div>
                 <% }; %>
         </div>
-
-    </div>
     <!-- Swiper paginação-->
-    <div class="swiper-pagination"></div>
+    <!-- <div class="swiper-pagination"></div> -->
 </section>
