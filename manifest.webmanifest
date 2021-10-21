@@ -8,21 +8,23 @@
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "mime_type": "application/manifest+json",
+  "background_color" : "#0A3873",
+  "theme_color": "#05C7F2",
   "display": "standalone",
   "scope": "https://franciscanosfilhosdemaria.herokuapp.com/",
   "icons": [
     {
-      "src": "./public/favicons/favicon-196x196.png",
+      "src": "/favicons/favicon-196x196.png",
       "sizes": "196x196",
       "type": "img/png"
     },
     {
-      "src": "./public/favicons/favicon-228x228.png",
+      "src": "/favicons/favicon-228x228.png",
       "sizes": "228x228",
       "type": "img/png"
     },
     {
-      "src": "./public/favicons/favicon-512x512.png",
+      "src": "/favicons/favicon-512x512.png",
       "sizes": "512x512",
       "type": "img/png"
     }
