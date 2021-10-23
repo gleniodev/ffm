@@ -6,7 +6,9 @@
         "subtitulo": "A agonia de Jesus no horto das oliveiras.",
         "texto": "Cristo sofreu e até suou sangue, se sentiu abandonado, teve de sofrer por nós, do contrário, não poderíamos ser salvos. Devemos imitá-lo sofrendo uns pelos outros e oferecer os sofrimentos em união com a Cruz de Cristo e com as renúncias da Santíssima Virgem.",
         "imagem": "/img/dol-1mt-agonia.png",
+        "imagemWebp":"/img/webp/dol-1mt-agonia.webp",
         "thumb": "/img/thumb-dol-1mt-agonia.png",
+        "thumbWebp": "/img/webp/thumb-dol-1mt-agonia.webp",
         "musicas": {
             "titulo": "Via Sacra",
             "link": ""
@@ -19,7 +21,9 @@
         "subtitulo": "A flagelação de Jesus atado a uma coluna.",
         "texto": "Os açoites eram aplicáveis apenas aos escravos e rebeldes a Roma. O flagelo usado era feito de tiras de couro, com pedaços de ferro e de osso fixados nas pontas e como um cordeiro inocente, carregado dos delitos do seu povo, em silêncio, Jesus se deixa conduzir ao matadouro. E é de sua morte, aceita livremente, que provém à justificação para todas as pessoas.",
         "imagem": "/img/dol-2mt-flagelacao.png",
+        "imagemWebp":"/img/webp/dol-2mt-flagelacao.webp",
         "thumb": "/img/thumb-dol-2mt-flagelacao.png",
+        "thumbWebp": "/img/webp/thumb-dol-2mt-flagelacao.webp",
         "musicas": {
             "titulo": "Foi por você",
             "link": ""
@@ -32,7 +36,9 @@
         "subtitulo": ": A coroação de espinhos.",
         "texto": "Em cada ponta de espinho! Um pecado. Em cada gota de sangue derramado! O perdão. Cristo lavou os nossos pecados e resgatou-nos da morte, através do poderoso sangue redentor, que nos cura, liberta e que hoje se derrama em cada Santa Missa celebrada.",
         "imagem": "/img/dol-3mt-coroa.png",
+        "imagemWebp":"/img/webp/dol-3mt-coroa.webp",
         "thumb": "/img/thumb-dol-3mt-coroa.png",
+        "thumbWebp": "/img/webp/thumb-dol-3mt-coroa.webp",
         "musicas": [
             {
                 "titulo": "Deus é amor",
@@ -51,7 +57,9 @@
         "subtitulo": "Jesus carrega a cruz até o calvário.",
         "texto": "O peso da cruz era o peso dos pecados do mundo, e em seus ombros abriram chagas que chegavam até os ossos. Todo aquele que quiser vir após mim, renegue a si mesmo tome a sua cruz e siga-me. As cruzes diárias são caminho de redenção e salvação. Aceitar as cruzes é amar a Jesus e imitá-lo. O servo fiel que segue seu mestre e também dá a vida por outro irmão.",
         "imagem": "/img/dol-4mt-cruz.png ",
+        "imagemWebp":"/img/webp/dol-4mt-cruz.webp",
         "thumb": "/img/thumb-dol-4mt-cruz.png ",
+        "thumbWebp": "/img/webp/thumb-dol-4mt-cruz.webp",
         "musicas": {
             "titulo": "Não desista do amor",
             "link": ""
@@ -64,7 +72,9 @@
         "subtitulo": "Jesus morre na cruz.",
         "texto": "A cruz Sagrada seja a nossa luz… todo sofrimento na terra não tem comparação ao da cruz do Senhor. Por amor ao ser humano suportou dores incalculáveis, humilhou-se e foi desprezado, tratado como o pior dos criminosos. O maior dos tesouros de um cristão é honrar a Santa Cruz!",
         "imagem": "/img/dol-5mt-crucificacao.png",
+        "imagemWebp":"/img/webp/dol-5mt-crucificacao.webp",
         "thumb": "/img/thumb-dol-5mt-crucificacao.png",
+        "thumbWebp": "/img/webp/thumb-dol-5mt-crucificacao.webp",
         "musicas": {
             "titulo": "Mistério da Cruz",
             "link": ""

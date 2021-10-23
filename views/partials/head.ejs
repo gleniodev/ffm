@@ -66,9 +66,11 @@
 <body>
     <img class="star" src="/img/star vert.png" alt="">
     <header>
-        <h1>
-            <%= tituloPage %>
-        </h1>
+        <picture>
+            <source  class="thumb-header" type="image/webp" srcset="/img/webp/maria.webp">
+            <img  class="thumb-header" src="/img/maria.png" alt="Imagem de Maria" width="30px" height=30px" id="thumb">
+        </picture>
+        <h1><%= tituloPage %></h1>
     </header>
     
     <main>
