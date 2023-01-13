@@ -1,0 +1,49 @@
+<%- include('./partials/head') %> <%- include('./partials/headRitosIniciais') %>
+<!-- Swiper conteúdo dos mistérios-->
+<div class="riTitle">Ritos Iniciais</div>
+<div class="lineAfter"></div>
+<section class="snap">
+  <div class="snap-wrapper" id="wrapper-102">
+    <% for(let item of ritosIniciais) { %>
+
+    <div class="snap-slide">
+      <article class="card">
+        <!-- <picture>
+          <source type="image/webp" srcset="<%= item.thumbWebp %> " />
+          <img
+            src="<%= item.thumb  %> "
+            alt=""
+            width="55px"
+            height="55px"
+            id="thumb"
+          />
+        </picture> -->
+        <div class="card__items card__items--ri">
+          <h2 id="id-misterio2"><%= item.id %> <%= item.titulo %></h2>
+          <!-- <p id="titulo-misterio2"></p> -->
+        </div>
+      </article>
+
+      <article class="content-misterios">
+        <picture>
+          <source type="image/webp" srcset="<%= item.imagemWebp %> " />
+          <img
+            src="<%= item.imagem %>"
+            alt=""
+            width="300px"
+            height="332px"
+            id="bg-texto"
+          />
+        </picture>
+        <spam class="bg-texto"></spam>
+        <p class="content-misterios--texto" id="texto-misterio2">
+          <%= item.texto %>
+        </p>
+      </article>
+    </div>
+    <% }; %>
+  </div>
+
+  <!-- Swiper paginação-->
+  <!-- <div class="swiper-pagination"></div> -->
+</section>

@@ -1,137 +1,169 @@
 <!-- Swiper conteúdo dos mistérios-->
+<div class="lineAfter"></div>
 <section class="snap">
+  <div class="snap-wrapper" id="wrapper-0">
+    <% for(let misterio of gloriosos) { %>
 
-        <div class="snap-wrapper" id="wrapper-0">
-            <% for(let misterio of gloriosos) { %>
-
-                <div class="snap-slide">
-                    <article class="card">
-                        <picture>
-                            <source type="image/webp" srcset="<%= misterio.thumbWebp %> ">
-                            <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
-                        </picture>
-                        <div class="card__items">
-                            <h3 id="id-misterio">
-                                <%= misterio.id %> mistério
-                            </h3>
-                            <p id="titulo-misterio">
-                                <%= misterio.titulo %>
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="content-misterios">
-                        <picture>
-                            <source type="image/webp" srcset="<%= misterio.imagemWebp %> ">
-                            <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
-                        </picture>
-                        <spam class="bg-texto"></spam>
-                        <p class="content-misterios--texto" id="texto-misterio">
-                            <%= misterio.texto %>
-                        </p>
-                    </article>
-                </div>
-                <% }; %>
+    <div class="snap-slide">
+      <article class="card">
+        <picture>
+          <source type="image/webp" srcset="<%= misterio.thumbWebp %> " />
+          <img
+            src="<%= misterio.thumb  %> "
+            alt=""
+            width="55px"
+            height="55px"
+            id="thumb"
+          />
+        </picture>
+        <div class="card__items">
+          <h3 id="id-misterio"><%= misterio.id %> mistério</h3>
+          <p id="titulo-misterio"><%= misterio.titulo %></p>
         </div>
+      </article>
 
-        <div class="snap-wrapper" id="wrapper-1">
-            <% for(let misterio of dolorosos) { %>
+      <article class="content-misterios">
+        <picture>
+          <source type="image/webp" srcset="<%= misterio.imagemWebp %> " />
+          <img
+            src="<%= misterio.imagem %>"
+            alt=""
+            width="300px"
+            height="332px"
+            id="bg-texto"
+          />
+        </picture>
+        <spam class="bg-texto"></spam>
+        <p class="content-misterios--texto" id="texto-misterio">
+          <%= misterio.texto %>
+        </p>
+      </article>
+    </div>
+    <% }; %>
+  </div>
 
-                <div class="snap-slide">
-                    <article class="card">
-                        <picture>
-                            <source type="image/webp" srcset="<%= misterio.thumbWebp %> ">
-                            <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
-                        </picture>
-                        <div class="card__items">
-                            <h3 id="id-misterio">
-                                <%= misterio.id %> mistério
-                            </h3>
-                            <p id="titulo-misterio">
-                                <%= misterio.titulo %>
-                            </p>
-                        </div>
-                    </article>
+  <div class="snap-wrapper" id="wrapper-1">
+    <% for(let misterio of dolorosos) { %>
 
-                    <article class="content-misterios">
-                        <picture>
-                            <source type="image/webp" srcset="<%= misterio.imagemWebp %> ">
-                            <img src="<%= misterio.imagem %>png" alt="" width="300px" height="332px" id="bg-texto">
-                        </picture>
-                        <spam class="bg-texto"></spam>
-                        <p class="content-misterios--texto" id="texto-misterio">
-                            <%= misterio.texto %>
-                        </p>
-                    </article>
-                </div>
-                <% }; %>
+    <div class="snap-slide">
+      <article class="card">
+        <picture>
+          <source type="image/webp" srcset="<%= misterio.thumbWebp %> " />
+          <img
+            src="<%= misterio.thumb  %> "
+            alt=""
+            width="55px"
+            height="55px"
+            id="thumb"
+          />
+        </picture>
+        <div class="card__items">
+          <h3 id="id-misterio"><%= misterio.id %> mistério</h3>
+          <p id="titulo-misterio"><%= misterio.titulo %></p>
         </div>
+      </article>
 
-        <div class="snap-wrapper" id="wrapper-2">
-            <% for(let misterio of gozosos) { %>
+      <article class="content-misterios">
+        <picture>
+          <source type="image/webp" srcset="<%= misterio.imagemWebp %> " />
+          <img
+            src="<%= misterio.imagem %>png"
+            alt=""
+            width="300px"
+            height="332px"
+            id="bg-texto"
+          />
+        </picture>
+        <spam class="bg-texto"></spam>
+        <p class="content-misterios--texto" id="texto-misterio">
+          <%= misterio.texto %>
+        </p>
+      </article>
+    </div>
+    <% }; %>
+  </div>
 
-                <div class="snap-slide">
-                    <article class="card">
-                        <picture>
-                            <source type="image/webp" srcset="<%= misterio.thumbWebp %> ">
-                            <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
-                        </picture>
-                        <div class="card__items">
-                            <h3 id="id-misterio">
-                                <%= misterio.id %> mistério
-                            </h3>
-                            <p id="titulo-misterio">
-                                <%= misterio.titulo %>
-                            </p>
-                        </div>
-                    </article>
+  <div class="snap-wrapper" id="wrapper-2">
+    <% for(let misterio of gozosos) { %>
 
-                    <article class="content-misterios">
-                        <picture>
-                            <source type="image/webp" srcset="<%= misterio.imagemWebp %> ">
-                            <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
-                        </picture>
-                        <spam class="bg-texto"></spam>
-                        <p class="content-misterios--texto" id="texto-misterio">
-                            <%= misterio.texto %>
-                        </p>
-                    </article>
-                </div>
-                <% }; %>
+    <div class="snap-slide">
+      <article class="card">
+        <picture>
+          <source type="image/webp" srcset="<%= misterio.thumbWebp %> " />
+          <img
+            src="<%= misterio.thumb  %> "
+            alt=""
+            width="55px"
+            height="55px"
+            id="thumb"
+          />
+        </picture>
+        <div class="card__items">
+          <h3 id="id-misterio"><%= misterio.id %> mistério</h3>
+          <p id="titulo-misterio"><%= misterio.titulo %></p>
         </div>
+      </article>
 
-        <div class="snap-wrapper" id="wrapper-3">
-            <% for(let misterio of luminosos) { %>
+      <article class="content-misterios">
+        <picture>
+          <source type="image/webp" srcset="<%= misterio.imagemWebp %> " />
+          <img
+            src="<%= misterio.imagem %>"
+            alt=""
+            width="300px"
+            height="332px"
+            id="bg-texto"
+          />
+        </picture>
+        <spam class="bg-texto"></spam>
+        <p class="content-misterios--texto" id="texto-misterio">
+          <%= misterio.texto %>
+        </p>
+      </article>
+    </div>
+    <% }; %>
+  </div>
 
-                <div class="snap-slide">
-                    <article class="card">
-                        <picture>
-                            <source type="image/webp" srcset="<%= misterio.thumbWebp %> ">
-                            <img src="<%= misterio.thumb  %> " alt="" width="55px" height="55px" id="thumb">
-                        </picture>
-                        <div class="card__items">
-                            <h3 id="id-misterio">
-                                <%= misterio.id %> mistério
-                            </h3>
-                            <p id="titulo-misterio">
-                                <%= misterio.titulo %>
-                            </p>
-                        </div>
-                    </article>
+  <div class="snap-wrapper" id="wrapper-3">
+    <% for(let misterio of luminosos) { %>
 
-                    <article class="content-misterios">
-                        <picture>
-                            <source type="image/webp" srcset="<%= misterio.imagemWebp %> ">
-                            <img src="<%= misterio.imagem %>" alt="" width="300px" height="332px" id="bg-texto">
-                        </picture>
-                        <spam class="bg-texto"></spam>
-                        <p class="content-misterios--texto" id="texto-misterio">
-                            <%= misterio.texto %>
-                        </p>
-                    </article>
-                </div>
-                <% }; %>
+    <div class="snap-slide">
+      <article class="card">
+        <picture>
+          <source type="image/webp" srcset="<%= misterio.thumbWebp %> " />
+          <img
+            src="<%= misterio.thumb  %> "
+            alt=""
+            width="55px"
+            height="55px"
+            id="thumb"
+          />
+        </picture>
+        <div class="card__items">
+          <h3 id="id-misterio"><%= misterio.id %> mistério</h3>
+          <p id="titulo-misterio"><%= misterio.titulo %></p>
         </div>
-    <!-- Swiper paginação-->
-    <!-- <div class="swiper-pagination"></div> -->
+      </article>
+
+      <article class="content-misterios">
+        <picture>
+          <source type="image/webp" srcset="<%= misterio.imagemWebp %> " />
+          <img
+            src="<%= misterio.imagem %>"
+            alt=""
+            width="300px"
+            height="332px"
+            id="bg-texto"
+          />
+        </picture>
+        <spam class="bg-texto"></spam>
+        <p class="content-misterios--texto" id="texto-misterio">
+          <%= misterio.texto %>
+        </p>
+      </article>
+    </div>
+    <% }; %>
+  </div>
+  <!-- Swiper paginação-->
+  <!-- <div class="swiper-pagination"></div> -->
 </section>

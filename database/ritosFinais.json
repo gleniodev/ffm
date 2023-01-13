@@ -1,0 +1,51 @@
+[
+  {
+    "id": "16-",
+    "titulo": "Consagração",
+    "texto": "",
+    "imagem": "/img/ri-16-consagracao.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "17-",
+    "titulo": "Proclamação da Palavra",
+    "texto": "",
+    "imagem": "/img/ri-17-proclamacao.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "18-",
+    "titulo": "Partilha",
+    "texto": "",
+    "imagem": "/img/ri-18-partilha.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "19-",
+    "titulo": "Louvor e intercessão",
+    "texto": "",
+    "imagem": "/img/ri-19-louvor-intersecao.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "20-",
+    "titulo": "Oração de São Bento",
+    "texto": "A Cruz Sagrada seja a minha luz, não seja o dragão o meu guia. Retira-te, satanás! Nunca me aconselhes coisas vãs. É mau o que tu me ofereces. Bebe tu mesmo os teus próprios venenos!",
+    "imagem": "/img/ritos-iniciais-2.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "21-",
+    "titulo": "Agradecimentos / Avisos",
+    "texto": "",
+    "imagem": "/img/ri-21-agradecimentos.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "22-",
+    "titulo": "Oração Levanta-se Deus",
+    "texto": "Levanta-Se Deus, pela intercessão da Virgem Maria, de São Miguel Arcanjo e de toda a Milícia Celeste sejam dispersos seus inimigos, e fujam de Sua Face todos os que O odeiam. Em nome do Pai do Filho e do Espírito Santo. Amém",
+    "imagem": "/img/ritos-iniciais-2.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1-",
+    "titulo": "Louvor Inicial",
+    "texto": "",
+    "imagem": "/img/ri-1-louvor-inicial.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "2-",
+    "titulo": "Oração a São Miguel Arcanjo",
+    "texto": "São Miguel Arcanjo, defendei-nos no combate, sede nosso refúgio contra a maldade e as ciladas do demônio! Ordene-lhe Deus, instantemente o pedimos; e vós, príncipe da milícia celeste, pela virtude divina, precipitai ao inferno a Satanás e a todos os espíritos malignos, que andam pelo mundo para perder as almas. Amém.",
+    "imagem": "/img/ritos-iniciais-2.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "3-",
+    "titulo": "Oração ao Santo Anjo da Guarda",
+    "texto": "Santo anjo do Senhor, meu zeloso guardador, se a ti me confiou a piedade divina, sempre me rege, me guarde, me governe me ilunmine. Amém.",
+    "imagem": "/img/ritos-iniciais-2.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "4-",
+    "titulo": "Ato de Contrição",
+    "texto": "Meu Deus, eu me arrependo, de todo coração de todos meus pecados e os detesto, porque pecando não só mereci as penas que justamente estabelecestes, mas principalmente porque Vos ofendi a Vós, sumo bem e digno de ser amado sobre todas as coisas. Por isso, proponho firmemente, com a ajuda da vossa graça, não mais pecar e fugir das ocasiões próximas de pecar. Amém.",
+    "imagem": "/img/ritos-iniciais-2.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "5-",
+    "titulo": "Louvor ao Espírito Santo",
+    "texto": "",
+    "imagem": "/img/ri-5-louvor-espirito-santo.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "6-",
+    "titulo": "Invocação do Espírito Santo",
+    "texto": "Vinde Espírito Santo, enchei os corações dos vossos fiéis e acendei neles o fogo do Vosso Amor. Enviai o Vosso Espírito e tudo será criado e renovareis a face da terra. Oremos: Ó Deus que instruíste os corações dos vossos fiéis, com a luz do Espírito Santo, fazei que apreciemos retamente todas as coisas segundo o mesmo Espírito e gozemos da sua consolação.Por Cristo Senhor Nosso. Amém",
+    "imagem": "/img/ritos-iniciais-2.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "7-",
+    "titulo": "Intenções",
+    "texto": "",
+    "imagem": "/img/ri-7-intencoes.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "8-",
+    "titulo": "Oferecimento do terço",
+    "texto": "Uno-me a todos os santos que estão no Céu, a todos os justos que estão sobre a Terra, a todas as almas fiéis que estão neste lugar. Uno-me a Vós, meu Jesus, para louvar dignamente Vossa Santa Mãe, e louvar-Vos a Vós, nela e por Ela. Renuncio a todas as distrações que me vierem durante este Rosário, que quero recitar com modéstia, atenção e devoção, como se fosse o último da minha vida . . .",
+    "imagem": "/img/ritos-iniciais-2.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  },
+  {
+    "id": "8-",
+    "titulo": "Oferecimento do terço",
+    "texto": ". . . Nós Vos oferecemos, Trindade Santíssima, este Credo, para honrar os mistérios todos de nossa Fé; este Pater (Pai Nosso) e estas três Ave-Marias, para honrar a unidade de vossa essência e a trindade de vossas pessoas. Pedimo-Vos uma fé viva, uma esperança firme e uma caridade ardente. Assim seja.",
+    "imagem": "/img/ritos-iniciais-2.png",
+    "thumb": "/img/thumb-ri-1-louvor-inicial.png "
+  }
+]
