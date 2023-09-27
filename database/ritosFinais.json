@@ -36,16 +36,16 @@
   },
   {
     "id": "21-",
-    "titulo": "Agradecimentos / Avisos",
-    "texto": "",
-    "imagem": "/img/ri-21-agradecimentos.png",
+    "titulo": "Oração Levanta-se Deus",
+    "texto": "Levanta-Se Deus, pela intercessão da Virgem Maria, de São Miguel Arcanjo e de toda a Milícia Celeste sejam dispersos seus inimigos, e fujam de Sua Face todos os que O odeiam. Em nome do Pai do Filho e do Espírito Santo. Amém",
+    "imagem": "/img/ritos-iniciais-2.png",
     "thumb": "/img/thumb-ri-1-louvor-inicial.png "
   },
   {
     "id": "22-",
-    "titulo": "Oração Levanta-se Deus",
-    "texto": "Levanta-Se Deus, pela intercessão da Virgem Maria, de São Miguel Arcanjo e de toda a Milícia Celeste sejam dispersos seus inimigos, e fujam de Sua Face todos os que O odeiam. Em nome do Pai do Filho e do Espírito Santo. Amém",
-    "imagem": "/img/ritos-iniciais-2.png",
+    "titulo": "Agradecimentos / Avisos",
+    "texto": "",
+    "imagem": "/img/ri-21-agradecimentos.png",
     "thumb": "/img/thumb-ri-1-louvor-inicial.png "
   }
 ]

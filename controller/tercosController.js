@@ -6,6 +6,7 @@ const ritosIniciais = require('../database/ritosIniciais.json')
 const ritosFinais = require('../database/ritosFinais.json')
 
 const tercosController = {
+    
     tercoMariano: (req, res, next) => {
 
         return res.render('index', {
@@ -13,7 +14,7 @@ const tercosController = {
             gloriosos,
             luminosos,
             gozosos,
-            dolorosos,
+            dolorosos,            
         });
     },
     ritosIniciais: (req, res, next) => {
