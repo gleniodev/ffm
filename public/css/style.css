@@ -114,6 +114,7 @@ header picture .thumb-header {
 
 .snap-slide {
   min-width: 100vw;
+  min-height: 100vh;
   padding: 0 20px;
   display: flex;
   /* justify-content: center; */
@@ -212,7 +213,7 @@ p {
   /* height: 332px; */
   padding: 10px;
   text-align: center;
-  font-size: 11.5px;
+  font-size: 12.5px;
   text-shadow: 0px 1px 7px rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -221,15 +222,32 @@ p {
   z-index: 2;
 }
 
-/* .bg-texto{
+ .bg-texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 300px;
   height: 332px;
-  position: absolute;
-  background: black;
-  opacity: 0.4;
+  position: absolute;  
+  background-color: rgba(0, 0, 0, 0.4);  
   z-index: 1;
   border-radius: 12px;
-} */
+ 
+} 
+
+#bg-texto{
+   /* position: relative;
+   height: 100%; 
+  width: 100%;  */
+  /* opacity: 0.2; */ 
+  
+}
+
+picture{
+  display: flex;
+}
+
+
 
 .group-button {
   width: 300px;
@@ -297,6 +315,8 @@ p {
 
 .ativo {
   background-color: var(--primary-ligth);
+  border: 2px solid #05c7f2; /*Cor neon */
+  box-shadow: 0 0 10px #05c7f2, 0 0 5px #05c7f2, 0 0 10px #05c7f2; /*Sombra para o efeito neon*/
 }
 
 .days {
@@ -310,3 +330,5 @@ p {
   padding: 20px;
   margin: 20px 0;
 }
+
+
