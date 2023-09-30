@@ -420,7 +420,7 @@ button:hover {
 .buttons-wrap {
   width: 100vw;
   height: 70vh;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: end;
