@@ -4,14 +4,14 @@
   "name": "Franciscanos Filhos de Maria",
   "description": "Grupo de oração católico que tem por carisma o santo terço e a vivência franciscana.",
   "short_name": "ffm",
-  "start_url": "https://franciscanosfilhosdemaria.herokuapp.com/",
+  "start_url": "https://franciscanosfilhosdemaria.com.br/",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "mime_type": "application/manifest+json",
   "background_color" : "#0A3873",
   "theme_color": "#05C7F2",
   "display": "standalone",
-  "scope": "https://franciscanosfilhosdemaria.herokuapp.com/",
+  "scope": "https://franciscanosfilhosdemaria.com.br/",
   "icons": [
     {
       "src": "/favicons/favicon-196x196.png",

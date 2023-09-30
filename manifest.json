@@ -11,7 +11,7 @@
   "background_color" : "#0A3873",
   "theme_color": "#05C7F2",
   "display": "standalone",
-  "scope": "https://franciscanosfilhosdemaria.herokuapp.com/",
+  "scope": "https://franciscanosfilhosdemaria.com.br/",
   "icons": [
     {
       "src": "/favicons/favicon-196x196.png",
