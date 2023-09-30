@@ -1,3 +1,28 @@
-<%- include('./partials/head') %> <%- include('./partials/headMisterios') %> <%-
-include('./partials/swiperTitles') %> <%- include('./partials/swiperContent') %>
-<%- include('./partials/footer') %>
+<%- include('./partials/head') %>
+<body>
+    <div class="wrap-home">
+        <img class="maria-bg" src="img/maria-bg2.png" alt="">
+       
+    <div class="conteudo-home">
+        <h4> "<%= data.salmo.refrao %>"<span id="referencia"> <br> (<%= data.salmo.referencia %>) </span> </h4>
+        
+    </div>
+        <div class="buttons-wrap">
+            <div class="logo">
+                <img id="logoffm" src="img/logoffm.png" alt="">
+            </div>
+            <div class="buttons-home">
+                <button>
+                    <a href="liturgia/primeiraLeitura">Liturgia</a>
+                </button>
+                <button>
+                    <a href="terco-mariano/misterios">Terço</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        
+    </style>
+</body>

@@ -1,14 +1,9 @@
 const express = require('express');
-const tercosController = require('../controller/tercosController');
+const homeController = require('../controller/homeController');
+
 const router = express.Router();
 
 // rota definitiva = /terco-mariano
-router.get('/', tercosController.tercoMariano);
-
-// // orações iniciais
-router.get('/ritosIniciais', tercosController.ritosIniciais);
-
-// // orações Finais
-router.get('/ritosFinais', tercosController.ritosFinais);
+router.get('/', homeController.home);
 
 module.exports = router;

@@ -21,7 +21,7 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--text-color);
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 body {
@@ -177,7 +177,7 @@ header picture .thumb-header {
   justify-content: center;
 }
 
-.card__items h3,
+.card__items > h3,
 p {
   font-size: 16px;
   text-transform: capitalize;
@@ -283,7 +283,7 @@ picture{
 
 .content-wrapper {
   position: relative;
-  background: #05c7f2;
+  background: var(--primary-ligth);
   overflow: hidden;
   width: 300px;
   max-width: 300px;
@@ -315,8 +315,8 @@ picture{
 
 .ativo {
   background-color: var(--primary-ligth);
-  border: 2px solid #05c7f2; /*Cor neon */
-  box-shadow: 0 0 10px #05c7f2, 0 0 5px #05c7f2, 0 0 10px #05c7f2; /*Sombra para o efeito neon*/
+  border: 2px solid var(--primary-ligth); /*Cor neon */
+  box-shadow: 0 0 10px var(--primary-ligth), 0 0 5px var(--primary-ligth), 0 0 10px var(--primary-ligth); /*Sombra para o efeito neon*/
 }
 
 .days {
@@ -331,4 +331,126 @@ picture{
   margin: 20px 0;
 }
 
+.liturgia-wrap {
+  width: 100vw;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  
+}
 
+.liturgia-wrap p {
+  font-size: 12px;
+  text-align: start;
+}
+
+.liturgia-wrap h5 {
+  font-size: 10px;
+  text-align: center;
+  color: var(--primary-ligth);
+}
+
+.liturgia-wrap sup {
+color: var(--primary-ligth);
+margin-right: 5px;
+}
+
+.liturgia-wrap :nth-child(1) {
+  margin-bottom: 5px;
+}
+
+
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.wrap-home {   
+  /* background-color: #7407c8; */
+  display: flex;   
+  flex-direction: column;  
+  width: 100vw;
+  height: 100vh;
+  /* padding: 50px; */
+  text-align: center;
+  /* padding: 20px;  */
+  justify-content: start;
+  align-items: end;
+}
+
+.conteudo-home {
+  /* background-color: #ffb607; */
+  display: flex;   
+  flex-direction: column;  
+  width: 100vw;
+  height: 30vh;
+  padding: 50px;
+  text-align: center;
+  padding: 20px;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo {
+  display: flex;  
+  width: 100vw;
+  height: 30vh;
+  /* background-color: #fff; */
+  justify-content: center;
+  /* padding: 20px; */
+}
+
+#logoffm {  
+  height: 100%;    
+}
+
+.buttons-wrap {
+  width: 100vw;
+  height: 70vh;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 100%);
+  gap: 30px;
+}
+
+.buttons-home {
+  width: 100vw;
+  height: 10vh;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 30px;
+}
+
+#referencia {
+  font-size: 10px;
+}
+
+.maria-bg {
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.8;
+
+}
+
+footer {
+  position: absolute;
+}

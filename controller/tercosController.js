@@ -9,7 +9,7 @@ const tercosController = {
     
     tercoMariano: (req, res, next) => {
 
-        return res.render('index', {
+        return res.render('misterios', {
             tituloPage: "terço mariano",
             gloriosos,
             luminosos,

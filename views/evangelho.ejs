@@ -1,0 +1,40 @@
+<%- include('./partials/head') %> 
+
+<header>
+    <!-- NOVO MENU PARA ORAÇÃO INICIAL, MISTERIOS , ORAÇÕES FINAIS -->
+    <div class="menuDeslizante">
+      <div class="menuDeslizante--item">
+        <a href="/liturgia/primeiraLeitura">1ª Leitura</a>
+      </div>
+      <div class="menuDeslizante--item "><a href="/liturgia/salmo">Salmo</a></div>
+
+      <% if(data.segundaLeitura != "") { %>
+        <% if(data.segundaLeitura != "Não há segunda leitura hoje!") { %>
+        <div class="menuDeslizante--item "><a href="/liturgia/segundaLeitura">2ª Leitura</a></div>        
+        <% }} %>
+
+      <div class="menuDeslizante--item ativo"><a href="/liturgia/evangelho">Evangelho</a></div>
+    </div>
+  </header>
+  <body>
+    <div class="liturgia-wrap">
+      <div class="liturgia-head">
+        <h5><%= data.data %></h5>
+        <h5><%= data.liturgia %></h5>
+      </div>
+      <p> <strong>Evangelho</strong> ( <%= data.evangelho.referencia %> )</p>
+      <p><%= data.evangelho.titulo %></p>
+      <p id="texto"><%= data.evangelho.texto %></p>
+      <p>- Palavra da Salvação.</p>
+      <p>- Glória a vós Senhor.</p>
+    </div>
+
+    <script>
+      // Selecionar o elemento de parágrafo pelo ID
+var paragrafo = document.getElementById("texto");
+
+// Substituir números por expoentes usando uma expressão regular
+paragrafo.innerHTML = paragrafo.innerHTML.replace(/(\d+)/g, "<sup>$1</sup>");
+
+    </script>
+  </body>
