@@ -339,12 +339,11 @@ picture{
   /* align-items: center; */
   justify-content: center;
   gap: 20px;
-  
-  
+  padding-bottom: 100px;  
 }
 
 .liturgia-wrap p {
-  font-size: 12px;
+  font-size: 13px;
   text-align: start;
 }
 
@@ -363,16 +362,20 @@ margin-right: 5px;
   margin-bottom: 5px;
 }
 
+#menuLiturgia {
+  position: fixed;
+  background: rgba(11, 56, 118, 1);
 
+}
 
 button {
-  background-color: #007BFF;
-  color: #fff;
+  width: 100px;
+  background-color: var(--primary-ligth);
   border: none;
   padding: 10px 20px;
   margin: 10px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 button:hover {
@@ -454,17 +457,15 @@ button:hover {
 }
 
 .iconHome {
-  width: 30px;
+  width: 100vw;
   height: 30px;
-  border-radius: 50px;
-  background-color: var(--ligth);
+  background-color: var(--primary-ligth);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
-  position: absolute;
-  bottom: 25px;
-  left: 50vw;
+  position: fixed;
+  bottom: 0px;
 }
 
 footer {
