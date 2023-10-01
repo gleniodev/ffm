@@ -2,7 +2,7 @@
 
 <header>
     <!-- NOVO MENU PARA ORAÇÃO INICIAL, MISTERIOS , ORAÇÕES FINAIS -->
-    <div class="menuDeslizante">
+    <div class="menuDeslizante" id="menuLiturgia">
       <div class="menuDeslizante--item">
         <a href="/liturgia/primeiraLeitura">1ª Leitura</a>
       </div>
@@ -10,7 +10,12 @@
 
       <% if(data.segundaLeitura != "") { %>
         <% if(data.segundaLeitura != "Não há segunda leitura hoje!") { %>
-        <div class="menuDeslizante--item ativo"><a href="/liturgia/segundaLeitura">2ª Leitura</a></div>        
+        <div class="menuDeslizante--item ativo"><a href="/liturgia/segundaLeitura">2ª Leitura</a></div> 
+        <style>
+          #menuLiturgia a {
+            font-size: 13px;
+          }
+        </style>       
         <% }} %>
 
       <div class="menuDeslizante--item"><a href="/liturgia/evangelho">Evangelho</a></div>
